@@ -8,4 +8,4 @@ RUN npm install -g cors-anywhere@$version
 COPY server.js .
 CMD ["node", "server.js"]
 
-EXPOSE 30080
+EXPOSE 8080
